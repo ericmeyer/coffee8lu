@@ -1,5 +1,8 @@
 <p id="notice"><%= notice %></p>
 
+<h1><%= @contact.name %></h1>
+<p><%= @contact.age %> | <%= @contact.email %></p>
+
 
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>
